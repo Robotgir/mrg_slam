@@ -66,7 +66,7 @@ def print_remappings(remappings, header=None):
 
 def launch_setup(context, *args, **kwargs):
 
-    config_file = 'mrg_slam.yaml'
+    config_file = 'simpleflight.yaml'
     if 'config' in context.launch_configurations:
         config_file = context.launch_configurations['config']
     config_file_path = os.path.join(
